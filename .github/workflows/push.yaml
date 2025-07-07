@@ -5,8 +5,7 @@ on:
     paths-ignore:
       - '**.md'
     branches:
-      - master
-      - 'release/**'
+      - 'release/31.0'
     tags:
       - '*'
 permissions:
