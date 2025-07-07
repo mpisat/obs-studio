@@ -1,6 +1,9 @@
 name: Build Project
 on:
   workflow_call:
+  push:
+    branches: [ main, master, release/31.0 ]
+  workflow_dispatch:
 jobs:
   check-event:
     name: Event Data 🔎
